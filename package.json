@@ -20,6 +20,9 @@
     "url": "https://github.com/XiaochanXia/commitlint-config-octopus/issues"
   },
   "homepage": "https://github.com/XiaochanXia/commitlint-config-octopus#readme",
+  "dependencies": {
+    "@commitlint/config-angular": "^7.5.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
     "eslint": "5",
@@ -29,10 +32,14 @@
   "peerDependencies": {
     "@commitlint/cli": "7"
   },
-  "dependencies": {
-    "@commitlint/config-conventional": "^7.5.0"
-  },
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"]
+    "extends": [
+      "@commitlint/config-angular"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
