@@ -41,5 +41,10 @@
   },
   "lint-staged": {
     "*.js": "eslint"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
