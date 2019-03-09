@@ -1,0 +1,38 @@
+{
+  "name": "commitlint-config-octopus",
+  "version": "1.0.0",
+  "description": "commitlint config octopus",
+  "main": "src/index.js",
+  "scripts": {
+    "commitmsg": "commitlint -e",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiaochanXia/commitlint-config-octopus.git"
+  },
+  "keywords": [
+    "commitlint"
+  ],
+  "author": "Xiaochan Xia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XiaochanXia/commitlint-config-octopus/issues"
+  },
+  "homepage": "https://github.com/XiaochanXia/commitlint-config-octopus#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "eslint": "5",
+    "eslint-config-octopus": "1.0.2",
+    "husky": "1.3.1"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "7"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^7.5.0"
+  },
+  "commitlint": {
+    "extends": ["@commitlint/config-conventional"]
+  }
+}
