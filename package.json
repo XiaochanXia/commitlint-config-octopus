@@ -41,10 +41,5 @@
   },
   "lint-staged": {
     "*.js": "eslint"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "eslint ."
-    }
   }
 }
