@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/XiaochanXia/commitlint-config-octopus#readme",
   "dependencies": {
-    "@commitlint/config-angular": "^7.5.0"
+    "@commitlint/config-angular": "7.5.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^7.5.2",
+    "@commitlint/cli": "7",
     "eslint": "5",
     "eslint-config-octopus": "1.0.2",
     "husky": "1.3.1",
