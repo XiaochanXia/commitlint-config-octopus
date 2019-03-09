@@ -5,7 +5,6 @@
   "main": "src/index.js",
   "scripts": {
     "precommit": "lint-staged",
-    "commitmsg": "commitlint -e",
     "lint": "eslint ."
   },
   "repository": {
