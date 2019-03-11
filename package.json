@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config-octopus",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "commitlint config octopus",
   "main": "src/index.js",
   "scripts": {
